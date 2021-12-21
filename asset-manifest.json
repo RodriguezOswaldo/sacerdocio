@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sacerdocio/static/css/main.073c9b0a.css",
-    "main.js": "/sacerdocio/static/js/main.e415527e.js",
+    "main.css": "/sacerdocio/static/css/main.595462aa.css",
+    "main.js": "/sacerdocio/static/js/main.8b0f83b4.js",
     "static/js/787.93eb6215.chunk.js": "/sacerdocio/static/js/787.93eb6215.chunk.js",
     "index.html": "/sacerdocio/index.html",
-    "main.073c9b0a.css.map": "/sacerdocio/static/css/main.073c9b0a.css.map",
-    "main.e415527e.js.map": "/sacerdocio/static/js/main.e415527e.js.map",
+    "main.595462aa.css.map": "/sacerdocio/static/css/main.595462aa.css.map",
+    "main.8b0f83b4.js.map": "/sacerdocio/static/js/main.8b0f83b4.js.map",
     "787.93eb6215.chunk.js.map": "/sacerdocio/static/js/787.93eb6215.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e415527e.js"
+    "static/css/main.595462aa.css",
+    "static/js/main.8b0f83b4.js"
   ]
 }
