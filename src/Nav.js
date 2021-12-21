@@ -1,5 +1,7 @@
 export default function Nav(){
     return(
-        <h2>This is a test</h2>
+        <nav className="nav">
+        <h2>Clases del Sacerdocio</h2>
+        </nav>
     )
 }
