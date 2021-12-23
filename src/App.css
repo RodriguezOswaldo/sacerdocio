@@ -2,54 +2,181 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --mainColor:#459eb9bb;
+    --secondMain: rgba(236, 225, 101, 0.63);
+    --thirdMain: #ACD2ED;
 
+    --mainColor2: #E1E289;
+    --secondMain2:#99AA38;
+    --thirdMain2:#ACD2ED;
+}
+body{
+    background:var(--thirdMain);
+    margin: 0;
+    padding:0;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0A210F;
+    width: 100%;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+}
 .nav {
     display: flex;
     font-family: 'Poppins';
     letter-spacing: -0.1em;
-    font-size: 0.7em;
-    position: fixed;
+    font-size: 0.6rem;
+    /*position: fixed;*/
     width: 100%;
+    padding: 15px;
+    height: 15px;
+    /*background: var(--mainColor);*/
+    /*background-image: url("./wave.svg");*/
     box-shadow: 0px 2.98px 7.45px rgba(0, 0, 0, 0.3);
-    padding: 20px;
-
 }
-
-.App {
+.container{
+    background:var(--mainColor);
+    text-align:center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgb(99, 91, 91);
+    padding-bottom: 20px;
+    /*margin-top: 100px;*/
+}
+#nodeContainer{
+    display: grid;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+span{
+    font-weight: bolder;
+    font-size: 1.1em;
+    padding:40px;
     text-align: center;
 }
-
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+section {
+    list-style: none;
+    padding:10px;
+    padding-bottom: 10px;
+    border: 2px solid rgba(23, 46, 48, 0.8);;
+    margin-top: 10px;
+    margin-left: 0px;
+    box-shadow: 1px 1px 3px rgb(99, 91, 91);
+    background-color: var(--thirdMain);;
 }
+section a{
+    font-size: 1em;
+    text-align:justify;
+    text-decoration: none;
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
 }
-
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+.box{
+    background: var(--secondMain);;
+    padding: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 3px rgb(99, 91, 91);
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+footer{
+    font-size: smaller;
+    padding: 1px;
+    padding-bottom: 10px;
+}
+footer a {
+    text-decoration: none;
+}
+.head{
+    background: var(--thirdMain);;
+    margin:0;
+    padding-top: 20px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.boxes{
+    border-radius: 12px;
+}
+.img{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 2px 2px 2px 1px rgba(20, 20, 23, 0.2);
+    margin: 10px auto;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.italic{
+    font-style: italic;
+}
+hr{
+    width: 90%;
+    text-align: center;
+    margin-right: 13px;
+}
+section:hover{
+    transform:scale(1.1);
+    transition: transform 1s;
+}
+section:focus{
+    transform:scale(1.1);
+}
+a:default{
+    color: #acd3ed;
+}
+a:visited{
+    color: brown;
+}
+a:focus{
+    color: orange;
+}
+a:hover{
     color: white;
 }
-
-.App-link {
-    color: #61dafb;
+a:active{
+    color:cyan;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
+@media(min-width: 650px){
+    #nodeContainer{
+        display: grid;
+        grid-gap: 8px;
+        grid-template-columns: repeat(2, 1fr);
     }
-    to {
-        transform: rotate(360deg);
+    section{
+        margin: 5px;
+    }
+    span{
+        font-size: 1em;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+}
+@media(min-width: 650px){
+    #nodeContainer{
+        display: grid;
+        align-items: center;
+        grid-gap: 8px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(min-width: 850px){
+    #nodeContainer{
+        display: grid;
+        grid-gap: 8px;
+        grid-template-columns: repeat(3, 1fr);
     }
 }

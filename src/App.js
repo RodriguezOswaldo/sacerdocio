@@ -1,9 +1,15 @@
 import './App.css';
-import Nav from "./Nav";
-
+import Nav from "./components/Nav";
+import Container from "./components/Container";
+import Talk from "./components/Talk";
 function App() {
+
   return (
-      <Nav/>
+      <div>
+        <Nav/>
+        <Container/>
+      </div>
+
   );
 }
 
