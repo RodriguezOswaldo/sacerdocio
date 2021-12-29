@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root{
     --mainColor:#459eb9bb;
@@ -30,12 +31,11 @@ body{
     font-family: 'Poppins';
     letter-spacing: -0.1em;
     font-size: 0.6rem;
-    /*position: fixed;*/
+    position: fixed;
     width: 100%;
     padding: 15px;
     height: 15px;
-    /*background: var(--mainColor);*/
-    /*background-image: url("./wave.svg");*/
+    background: var(--mainColor);
     box-shadow: 0px 2.98px 7.45px rgba(0, 0, 0, 0.3);
 }
 .container{
@@ -47,7 +47,6 @@ body{
     padding: 20px;
     box-shadow: 1px 1px 3px rgb(99, 91, 91);
     padding-bottom: 20px;
-    /*margin-top: 100px;*/
 }
 #nodeContainer{
     display: grid;

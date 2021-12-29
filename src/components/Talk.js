@@ -1,7 +1,6 @@
 export default function Talk(props){
     return(
         <div>
-            <div></div>
             {/*<div>this: {props.my_date}</div>*/}
             <img className="img" src={props.img}></img>
             <br/>
